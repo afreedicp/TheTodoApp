@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.todo-container {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(48, 16, 255, 1) 0%,
+    rgba(100, 115, 255, 1) 100%
+  );
+}
+.todo-app {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  width: 520px;
+  min-height: 600px;
+  background: #a7acc0;
+  text-align: center;
+  margin: 128px auto;
+  border-radius: 10px;
+  padding-bottom: 32px;
+}
+li {
+  margin-right: 20px;
+  color: rgb(12, 37, 29);
+  font-size: 20px;
+}
+.todo-form {
+  margin-bottom: 32px;
+  margin-top: 10vh;
+}
+.todo-button {
+  padding: 16px;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  outline: none;
+  background: linear-gradient(
+    90deg,
+    rgba(93, 12, 255, 1) 0%,
+    rgba(155, 0, 250, 1) 100%
+  );
+}
+.delete-button {
+  display: inline-flex;
+  align-items: center;
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 4vh;
+  color: rgb(177, 16, 16);
+}
+.edit-btn {
+  display: inline-flex;
+  margin-left: 4vh;
+  color: rgb(36, 26, 26);
+}
